@@ -21,12 +21,3 @@ NOTE: For Windows OS, slightly different path parameter for command line may nee
 .\tests\test_transactions.py 
 Not having resource atm.
 ```
-### STEP 3 Run in Docker
-```sh
-docker build -t pytest-framework .
-docker run pytest-framework
-```
-### STEP 4 Run via Docker Compose
-```sh
-docker-compose up
-```
